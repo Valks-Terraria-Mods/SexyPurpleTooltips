@@ -51,6 +51,14 @@ namespace SexyPurpleTooltips
                     line.overrideColor = new Color(255, 153, 204);
                 }
 
+                if (line.text.Contains("material")) {
+                    line.overrideColor = new Color(255, 153, 190);
+                }
+
+                if (line.text.Contains("placed")) {
+                    line.overrideColor = new Color(255, 153, 180);
+                }
+
                 if (line.isModifier)
                 {
                     line.overrideColor = new Color(204, 51, 255);

@@ -1,1 +1,8 @@
-Changes the tooltip lines of every item in Terraria to a sexy random variant of purple, magenta and pink.
+[c/ff4dff:Changes the tooltip lines of every item in Terraria] [c/ff4dff:to a sexy random variant of purple, magenta and pink.]
+
+[c/cc33ff:v0.1]
+[c/ff66ff:Added purple color variants for lines that contain] [c/ff66ff:the keyphrases default, damage, critical,] [c/ff66ff:speed, knockback, power, life, consumable] 
+[c/ff66ff:and modifiers.]
+
+[c/cc33ff:v0.2]
+[c/ff66ff:Added purple color variants for lines that contain] [c/ff66ff:the keyphrases material and placed.]
