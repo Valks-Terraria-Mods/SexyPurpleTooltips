@@ -1,4 +1,4 @@
 author = valkyrienyanko
-version = 0.2
+version = 0.4
 displayName = [c/ff66ff:Sexy] [c/cc33ff:Purple] [c/ff66cc:Tooltips]
 homepage = https://discord.gg/thMupbv
