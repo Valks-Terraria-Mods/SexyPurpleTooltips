@@ -3,39 +3,32 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace SexyPurpleTooltips
-{
-    public class Tooltips : GlobalItem
-    {
+namespace SexyPurpleTooltips {
+    public class Tooltips : GlobalItem {
+
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips) {
-            for (int i = 0; i < tooltips.Count; i++)
-            {
+            for (int i = 0; i < tooltips.Count; i++) {
                 TooltipLine line = tooltips[i];
 
                 line.overrideColor = new Color(255, 153, 255); // default color
 
-                if (i == 0)
-                {
+                if (i == 0) {
                     line.overrideColor = new Color(255, 77, 255);
                 }
 
-                if (line.text.Contains("damage"))
-                {
+                if (line.text.Contains("damage")) {
                     line.overrideColor = new Color(179, 0, 179);
                 }
 
-                if (line.text.Contains("critical"))
-                {
+                if (line.text.Contains("critical")) {
                     line.overrideColor = new Color(255, 0, 191);
                 }
 
-                if (line.text.Contains("speed"))
-                {
+                if (line.text.Contains("speed")) {
                     line.overrideColor = new Color(204, 51, 255);
                 }
 
-                if (line.text.Contains("knockback"))
-                {
+                if (line.text.Contains("knockback")) {
                     line.overrideColor = new Color(255, 77, 148);
                 }
 
@@ -59,11 +52,12 @@ namespace SexyPurpleTooltips
                     line.overrideColor = new Color(255, 153, 180);
                 }
 
-                if (line.isModifier)
-                {
+                if (line.isModifier) {
                     line.overrideColor = new Color(204, 51, 255);
                 }
+
             }
         }
+
     }
 }
