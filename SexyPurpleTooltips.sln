@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SexyPurpleTooltips", "SexyPurpleTooltips.csproj", "{21B671F7-3518-4DAC-AC24-F92AD0334BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B671F7-3518-4DAC-AC24-F92AD0334BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B671F7-3518-4DAC-AC24-F92AD0334BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B671F7-3518-4DAC-AC24-F92AD0334BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B671F7-3518-4DAC-AC24-F92AD0334BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B21A3D1-393C-4EA7-9130-B61E708E0884}
+	EndGlobalSection
+EndGlobal
