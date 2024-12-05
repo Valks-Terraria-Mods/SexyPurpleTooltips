@@ -1,1 +1,10 @@
+Configs: {
+	Config: {
+		Hue: {
+			Tooltip: ""
+			Label: Hue
+		}
 
+		DisplayName: Config
+	}
+}
