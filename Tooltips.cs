@@ -1,4 +1,22 @@
-﻿namespace SexyPurpleTooltips;
+﻿using System.ComponentModel;
+using Terraria.ModLoader.Config;
+
+namespace SexyPurpleTooltips;
+
+public class Config : ModConfig
+{
+    public static Config Instance { get; private set; }
+
+    public override void OnLoaded()
+    {
+        Instance = this;
+    }
+
+    public override ConfigScope Mode => ConfigScope.ServerSide;
+
+    [DefaultValue(0)]
+    public int Hue;
+}
 
 public class Tooltips : GlobalItem
 {
@@ -20,7 +38,9 @@ public class Tooltips : GlobalItem
     private static void SetColor(TooltipLine line, string type) 
     {
         if (line.Text.Contains(type))
+        {
             line.OverrideColor = colors[type];
+        }
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -31,8 +51,10 @@ public class Tooltips : GlobalItem
 
             line.OverrideColor = colors["default"];
 
-            if (i == 0) 
+            if (i == 0)
+            {
                 line.OverrideColor = colors["first"];
+            }
 
             SetColor(line, "damage");
             SetColor(line, "critical");
@@ -45,7 +67,9 @@ public class Tooltips : GlobalItem
             SetColor(line, "placed");
 
             if (line.IsModifier)
+            {
                 line.OverrideColor = new Color(204, 51, 255);
+            }
         }
     }
 }

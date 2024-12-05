@@ -6,3 +6,6 @@
 
 [c/cc33ff:v0.2]
 [c/ff66ff:Added purple color variants for lines that contain] [c/ff66ff:the keyphrases material and placed.]
+
+Discord for suggestions and support: https://discord.gg/j8HQZZ76r8
+Source Code: https://github.com/Valks-Terraria-Mods/SexyPurpleTooltips
